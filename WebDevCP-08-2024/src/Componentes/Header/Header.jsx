@@ -6,9 +6,9 @@ function Header() {
         <>
         <div className="container-header">
                 <div className="list-header">
-                    <div className='home-button'><h6>Home</h6></div>
-                    <div className="sobre-button"><h6>Sobre</h6></div>
-                    <div className="contato-button"><h6>Contato</h6></div>
+                    <Link to='/'>Home</Link>
+                    <Link to='/sobre'>Sobre</Link>
+                    <Link to='/contato'>Contato</Link>
                 </div>
         </div>
         </>
