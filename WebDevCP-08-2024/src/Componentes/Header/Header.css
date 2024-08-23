@@ -1,0 +1,19 @@
+.container-header{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+}
+
+.list-header h6{
+    font-size: 20px;
+
+}

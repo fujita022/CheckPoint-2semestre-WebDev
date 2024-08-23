@@ -1,14 +1,17 @@
+import './Header.css'
+import { Link } from "react-router-dom";
+
 function Header() {
     return ( 
-        <div className="container">
-            <div className="ConteudoHeader">
-                <ul>
-                    <li>Home</li>
-                    <li>Sobre</li>
-                    <li>Contato</li>
-                </ul>
-            </div>
+        <>
+        <div className="container-header">
+                <div className="list-header">
+                    <div className='home-button'><h6>Home</h6></div>
+                    <div className="sobre-button"><h6>Sobre</h6></div>
+                    <div className="contato-button"><h6>Contato</h6></div>
+                </div>
         </div>
+        </>
      );
 }
 
