@@ -1,60 +1,51 @@
 .container-home{
   display: flex;
   width: 70%;
-  max-width: 75%;
-  min-width: 50%;
+  max-width: 80%;
   margin: 0 auto;
   height: 40vh;
   align-items: center;
   justify-content: center;
 }
 
-.esquerda{
+.textos-home{
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: start;
   width: 30vw;
+  gap: 32px;
 }
-.esquerda h1{
+
+.textos-home h1{
   font-size: 60px;
   width: 577px;
 }
 
-.esquerda p{
+.textos-home p{
   font-size: 24px;
   width: 497px;
 }
 
 
-.botao{
+.textos-home a{
   background-color: #333333;
   border-radius: 40px;
   text-align: center;
   width: 200px;
-  padding: 10px;
-}
-
-.botao a{
+  padding: 15px;
   font-style: none;
   text-decoration: none;
   color: white;
 }
 
-.sec{
-  margin-top: 32px;
-}
-
-.direita{
+.direita-home{
   align-items: center;
   justify-content: end;
+  margin-top: 4rem;
 }
 
-.direita img{
-  margin-top: 8rem;
-}
-
-.container-cards{
+.container-cards-home{
   display: flex;
   align-items: center;
   justify-content: center;

@@ -6,21 +6,17 @@ function Home() {
     return (
         <>
             <div className="container-home">
-                <div className="container-home esquerda">
-                    <div className="secao-esquerda">
-                        <div className="titulo">
-                            <h1>Crie seus vídeos online</h1>
-                        </div>
-                        <div className="sec subtitulo">
-                            <p>Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade.</p>
-                        </div>
-                        <div className="sec botao">
+                <div className="container-home esquerda-home">
+                    <div className="secao-esquerda-home">
+                        <div className="textos-home">
+                            <h1>Crie seus vídeos online</h1>                                      
+                            <p>Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade.</p>                      
                             <a href="#">Começar agora!</a>
                         </div>
                     </div>
                 </div>
 
-                <div className="container-home direita">
+                <div className="container-home direita-home">
                     <div className="secao-direita">
                         <div className="img">
                             <img src={HomeImg} alt="" />
@@ -29,7 +25,7 @@ function Home() {
                 </div>
             </div>
 
-            <section className="container-cards">
+            <section className="container-cards-home">
                 <div className="cards">
                     <img src={Cards} alt="" />
                 </div>
