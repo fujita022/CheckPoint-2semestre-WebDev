@@ -1,6 +1,6 @@
 .container-home{
   display: flex;
-  width: 70%;
+  width: 69%;
   max-width: 80%;
   margin: 0 auto;
   height: 40vh;
@@ -42,7 +42,7 @@
 .direita-home{
   align-items: center;
   justify-content: end;
-  margin-top: 4rem;
+  margin-top: 8rem;
 }
 
 .container-cards-home{
