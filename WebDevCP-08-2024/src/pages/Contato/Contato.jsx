@@ -7,6 +7,7 @@ function Contato() {
     return (
         <>
             <div className="container-contato">
+                <div className="contato-page">
                 <div className="container-contato esquerda-contato">
                     <div className="esquerda-contato-texto">
                         <h1>Dúvidas e suporte, entre em contato:</h1>
@@ -24,11 +25,11 @@ function Contato() {
                     <div className="textos-contato-direita">
                         <div className="name-label-contato">
                             <p>Nome:</p>
-                            <input type="hidden" name="name" />
+                            <input name="name" />
                         </div>
                         <div className="email-label-contato">
                         <p>E-mail:</p>
-                        <input type="hidden" name="email" />
+                        <input name="email" />
                         </div>
                         <div className="msg-label-contato">
                             <p>Mensagem:</p><br />
@@ -38,6 +39,7 @@ function Contato() {
                     <div className="enviar-botao-contato">
                         <a href="#">Enviar</a>
                     </div>
+                </div>
                 </div>
             </div>
         </>

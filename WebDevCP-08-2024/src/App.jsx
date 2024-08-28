@@ -5,8 +5,10 @@ function App() {
  
   return (
     <>
-      <Header />
+      <div className="page-principal">
+      <Header/>
       <Outlet/>
+      </div>
     </>
   )
 }

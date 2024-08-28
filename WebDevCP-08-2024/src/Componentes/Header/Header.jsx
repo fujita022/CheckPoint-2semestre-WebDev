@@ -1,14 +1,14 @@
 import './Header.css'
-import { Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 function Header() {
     return ( 
         <>
         <div className="container-header">
                 <div className="list-header">
-                    <Link to='/'>Home</Link>
-                    <Link to='/sobre'>Sobre</Link>
-                    <Link to='/contato'>Contato</Link>
+                    <NavLink to='/' className={({isActive}) => isActive ?  'active' : '' }>Home</NavLink>
+                    <NavLink to='/sobre' className={({isActive}) => isActive ?  'active' : '' }>Sobre</NavLink>
+                    <NavLink to='/contato' className={({isActive}) => isActive ?  'active' : '' }>Contato</NavLink>
                 </div>
         </div>
         </>
