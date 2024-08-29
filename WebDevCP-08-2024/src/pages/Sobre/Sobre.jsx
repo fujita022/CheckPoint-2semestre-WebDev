@@ -1,8 +1,9 @@
 import './Sobre.css'
 import Cel1 from '../../assets/Sobre-imgs/cel-images/Cel1.png'
 import Cel2 from '../../assets/Sobre-imgs/cel-images/Cel2.png'
-
-
+import Planos from '../../Componentes/Planos/Planos';
+import SetaSobre from '../../assets/Sobre-imgs/sobre-seta.png'
+import ImagemCard from '../../assets/Sobre-imgs/img-planos-card.png'
 
 function Sobre() {
     return (
@@ -26,10 +27,49 @@ function Sobre() {
                 </div>
             </div>
 
-                <div className="container-fim-sobre">
-                    <div className="imgs-fim">
+            <div className="container-fim-sobre">
+                <div className="imgs-fim">
+                </div>
+            </div>
+
+            <section>
+                <div className="container-planos">
+                    <div className="title-plano">
+                    <h1>Planos</h1>
+                    </div>
+                    <div className="planos-sobre">
+                        <Planos
+                            headerplanos={'Individual'}
+                            bodyplanosp={'1 Usuário'}
+                            bodyplanosh6={'10 Vídeos  R$15'}
+                            buttonplanos={'Cadastrar'}
+                            ImagemSeta={SetaSobre}
+                            ></Planos>
+                        <Planos
+                            headerplanos={'Profissional - Times'}
+                            headerColor= '#EBE9E9'
+                            bodyplanosp={'1-10 Usuários'}
+                            bodyplanosh6={'Vídeos ilimitados R$40'}
+                            bodyplanosp2={'+10 Usuários'}
+                            bodyplanosh62={'Vídeos ilimitados R$20'}
+                            buttonplanos={'Cadastrar'}
+                            buttonColor={'#fff'}
+                            corTexto={'#2F2E41'}   
+                            borderColor={'1px solid #929292'}
+                            ImagemSeta={SetaSobre}
+                        ></Planos>
+                        <Planos
+                           headerplanos={'Corporativo'}
+                           headerColor= '#EBE9E9'
+                           buttonplanos={'Entre em contato'}        
+                           ImagemCard={ImagemCard}
+                           buttonColor={'#fff'}    
+                           corTexto={'#2F2E41'}      
+                           borderColor={'1px solid #929292'}
+                        ></Planos>
                     </div>
                 </div>
+            </section>
         </>
     );
 }
