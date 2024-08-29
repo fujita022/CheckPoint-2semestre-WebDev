@@ -29,7 +29,6 @@ function Home() {
         </div>
 
         <section>
-          <div className="container-cards">
             <div className="cards-home">
               <Cards
                 numbercards="01"
@@ -57,7 +56,6 @@ function Home() {
                 pgcards="Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels."
               ></Cards>
             </div>
-          </div>
         </section>
       </div>
     </>
