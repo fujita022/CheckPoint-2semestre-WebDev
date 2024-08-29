@@ -60,3 +60,15 @@
   margin-bottom: 3rem;
 }
 
+@media (max-width: 768px) {
+  /* Ajuste para a seção home em telas menores */
+  .secao-home {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  /* Ajuste para a parte direita */
+  .direita {
+      margin-top: 20px;
+  }
+}

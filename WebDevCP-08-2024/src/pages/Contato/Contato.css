@@ -95,5 +95,23 @@
   border-radius: 50px;
   box-shadow: 0px 4px 6px 0px #26323814;
   box-shadow: 0px 2px 4px 0px #26323814;
+}
 
+@media (max-width: 768px) {
+  .contato-page {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .border {
+      display: none;
+  }
+
+  .esquerda-contato-images {
+      margin-bottom: 20px;
+  }
+
+  .name-label-contato, .email-label-contato, .msg-label-contato {
+      margin-bottom: 15px;
+  }
 }
