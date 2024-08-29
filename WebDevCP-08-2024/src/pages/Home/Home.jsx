@@ -1,6 +1,11 @@
 import "./Home.css";
 import HomeImg from "../../assets/home-imgs/HomeImg.png";
 import Cards from "../../Componentes/Cards/Cards";
+import Youtube from '../../assets/home-imgs/youtube.png'
+import Tiktok from '../../assets/home-imgs/tiktok.png'
+import Instagram from '../../assets/home-imgs/instagram.png'
+import Facebook from '../../assets/home-imgs/facebook.png'
+
 
 function Home() {
   return (
@@ -28,36 +33,36 @@ function Home() {
           </div>
         </div>
 
+              </div>
         <section>
             <div className="cards-home">
               <Cards
                 numbercards="01"
-                imgcards=""
+                imgcards={Youtube}
                 titulocards="YouTube"
                 pgcards="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo."
                 className="card1"
               ></Cards>
               <Cards
                 numbercards="02"
-                imgcards=""
+                imgcards={Tiktok}
                 titulocards="Tiktok"
                 pgcards="Faça sua criatividade brilhar em vídeos curtos e envolventes que vão cativar a comunidade global do TikTok."
               ></Cards>
               <Cards
                 numbercards="03"
-                imgcards=""
+                imgcards={Facebook}
                 titulocards="Facebook"
                 pgcards="Conecte-se com sua audiência de forma autêntica e impactante através de vídeos que se destacam no feed do Facebook."
               ></Cards>
               <Cards
                 numbercards="04"
-                imgcards=""
+                imgcards={Instagram}
                 titulocards="Instagram"
                 pgcards="Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels."
               ></Cards>
             </div>
         </section>
-      </div>
     </>
   );
 }

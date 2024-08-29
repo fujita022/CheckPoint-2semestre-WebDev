@@ -1,17 +1,25 @@
-.card-home{
-    display: flex;
+.card{
     width: 309px;
     height: 326px;
     border-radius: 16px;
     background-color: #6975E8;
 }
 
+.layout-card{
+    margin: 16px 34px 16px 34px;
+}
+
+.header-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .cards-home{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 25px;
-    width: 400px;
 }
 
 .cards-home p{
@@ -32,23 +40,3 @@
     font-size: 64px;
 }
 
-.card1{
-
-    flex-direction: column;
-    background-color:#F1C2B0 ;
-}
-
-.card2{    
-
-    flex-direction: column;
-    background-color:#F9EB98 ;
-    
-}
-
-.card3{
-    background-color: #C0D9DD;
-}
-
-.card4{
-    background-color: #6975E8;
-}
