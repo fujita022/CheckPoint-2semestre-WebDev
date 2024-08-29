@@ -4,6 +4,7 @@ import './Planos.css'
 function Planos({headerplanos, bodyplanosp,bodyplanosh6, bodyplanosp2,bodyplanosh62,buttonplanos, headerColor, buttonColor, corTexto, borderColor, ImagemCard, ImagemSeta}) {
   return ( 
     <>
+    <div className="cards-plano">
       <div className="layout-plano">
         <div className="header-planos" style={{backgroundColor: headerColor}}>
           <h1>{headerplanos}</h1>
@@ -25,7 +26,7 @@ function Planos({headerplanos, bodyplanosp,bodyplanosh6, bodyplanosp2,bodyplanos
           {buttonplanos}
         </div>
       </div>
-    
+      </div>
     </>
    );
 }
