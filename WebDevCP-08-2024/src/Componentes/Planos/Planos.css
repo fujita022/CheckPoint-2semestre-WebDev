@@ -57,18 +57,19 @@
 .body-planos{
   height: 268px;
   margin: 23px 16px 0px 16px;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .body-planos p{
   height: 16px;
   font-size: 12px;
-
 }
 
 .body-planos h6{
   height: 24px;
   font-size: 12px;
-  margin-top: 12px;
 }
 
 .button-cadastrar-planos{
@@ -88,10 +89,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 12px;
 }
 
 .seta-planos img{
   width: 13.33px;
   height: 15px;
   cursor: pointer;
+  align-items: center;
+}
+
+.img-card-ultimo{
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+.preco-planos{
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }

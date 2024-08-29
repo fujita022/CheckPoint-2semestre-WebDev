@@ -41,7 +41,8 @@ function Sobre() {
                         <Planos
                             headerplanos={'Individual'}
                             bodyplanosp={'1 Usuário'}
-                            bodyplanosh6={'10 Vídeos  R$15'}
+                            bodyplanosh6={'10 Vídeos'}
+                            bodyplanosh6preco={'R$15'}
                             buttonplanos={'Cadastrar'}
                             ImagemSeta={SetaSobre}
                             ></Planos>
@@ -49,9 +50,11 @@ function Sobre() {
                             headerplanos={'Profissional - Times'}
                             headerColor= '#EBE9E9'
                             bodyplanosp={'1-10 Usuários'}
-                            bodyplanosh6={'Vídeos ilimitados R$40'}
+                            bodyplanosh6={'Vídeos ilimitados'}
+                            bodyplanosh6preco={'R$40'}
                             bodyplanosp2={'+10 Usuários'}
-                            bodyplanosh62={'Vídeos ilimitados R$20'}
+                            bodyplanosh62={'Vídeos ilimitados'}
+                            bodyplanosh6preco2={'R$20'}
                             buttonplanos={'Cadastrar'}
                             buttonColor={'#fff'}
                             corTexto={'#2F2E41'}   
