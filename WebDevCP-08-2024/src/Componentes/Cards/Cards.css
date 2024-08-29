@@ -1,0 +1,45 @@
+.cards-home{
+
+    width: 309px;
+    height: 326px;
+    border-radius: 16px;
+    gap: 25px;
+}
+
+.cards-home p{
+    width: 241px;
+    height: 42px;
+    font-size: 18px;
+}
+
+.cards-home h1{
+    width: 135px;
+    height: 42px;
+    font-size: 32px;
+}
+
+.number-card{
+    width: 77px;
+    height: 84px;
+    font-size: 64px;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    background-color:#F1C2B0 ;
+}
+
+.card2{    display: flex;
+    flex-direction: column;
+    background-color:#F9EB98 ;
+    
+}
+
+.card3{
+    background-color: #C0D9DD;
+}
+
+.card4{
+    background-color: #6975E8;
+}
