@@ -1,10 +1,11 @@
 import "./Cards.css";
 
-function Cards({ numbercards, imgcards, titulocards, pgcards }) {
+function Cards({ numbercards, imgcards, titulocards, pgcards, backgroundColor }) {
   return (
     <>
-      <div className="card">
-        <div className="layout-card">
+      <div className="card"style={{backgroundColor}}>
+        <div className="cards">
+        <div className="layout-card" >
           <div className="header-card">
           <div className="number-card">{numbercards}</div>
           <div className="img-card">
@@ -18,6 +19,7 @@ function Cards({ numbercards, imgcards, titulocards, pgcards }) {
           <div className="paragrafo-card">
             <p>{pgcards}</p>
           </div>
+        </div>
         </div>
         </div>
       </div>

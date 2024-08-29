@@ -48,18 +48,21 @@ function Home() {
                 imgcards={Tiktok}
                 titulocards="Tiktok"
                 pgcards="Faça sua criatividade brilhar em vídeos curtos e envolventes que vão cativar a comunidade global do TikTok."
+                backgroundColor="#F9EB98"
               ></Cards>
               <Cards
                 numbercards="03"
                 imgcards={Facebook}
                 titulocards="Facebook"
                 pgcards="Conecte-se com sua audiência de forma autêntica e impactante através de vídeos que se destacam no feed do Facebook."
+                backgroundColor='#C0D9DD'
               ></Cards>
               <Cards
                 numbercards="04"
                 imgcards={Instagram}
                 titulocards="Instagram"
                 pgcards="Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels."
+                backgroundColor='#6975E8'
               ></Cards>
             </div>
         </section>

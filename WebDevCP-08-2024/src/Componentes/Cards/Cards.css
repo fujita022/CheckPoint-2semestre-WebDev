@@ -2,7 +2,7 @@
     width: 309px;
     height: 326px;
     border-radius: 16px;
-    background-color: #6975E8;
+    background-color: #F1C2B0;
 }
 
 .layout-card{
@@ -16,6 +16,7 @@
 
 
 .cards-home{
+    margin-top: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,3 +41,6 @@
     font-size: 64px;
 }
 
+.layout-card h1, p{
+    margin-top: 16px;
+}
