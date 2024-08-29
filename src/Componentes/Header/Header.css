@@ -1,0 +1,27 @@
+.container-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.list-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+    font-style: none;
+    
+}
+
+.list-header a{
+    font-size: 20px;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.list-header .active {
+    text-decoration: underline;
+}
