@@ -13,6 +13,8 @@
 .planos-sobre{
   margin-top: 23px;
     display: flex;
+    border-top-left-radius: 30px;
+    border-top-right-radius:30px ;
     align-items: center;
     justify-content: center;
     gap: 25px;
@@ -111,4 +113,11 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+
+.imagem-card-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
 }
