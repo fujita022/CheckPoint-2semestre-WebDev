@@ -28,8 +28,7 @@ function Contato() {
                             <input name="name" />
                         </div>
                         <div className="email-label-contato">
-                        <p>E-mail:</p>
-                        <input name="email" />
+                        <p>E-mail:</p> <input name="email" />
                         </div>
                         <div className="msg-label-contato">
                             <p>Mensagem:</p><br />
