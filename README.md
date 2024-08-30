@@ -1,8 +1,9 @@
-# React + Vite
+Integrantes do Grupo:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Erick Fujita [RM556096]
 
-Currently, two official plugins are available:
+Mauricio Alves [RM556214]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Carlos Henrique [RM558003]
+
+Rodrigo Hiroshi [RM557374]
