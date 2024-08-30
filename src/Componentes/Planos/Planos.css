@@ -35,6 +35,8 @@
 
 .layout-plano{
   width: 240px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   height: 389px;
   background-color: #EBE9E9;
 }
@@ -85,6 +87,11 @@
   justify-content: center;
   color: #FFFFFF;
   cursor: pointer;
+}
+
+.cards-plano{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .seta-planos{
