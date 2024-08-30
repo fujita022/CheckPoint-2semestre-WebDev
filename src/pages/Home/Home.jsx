@@ -25,7 +25,7 @@ function Home() {
               <div className="direita">
                 <div className="secao-direita">
                   <div className="img">
-                    <img src={HomeImg} alt="" />
+                    <img src={HomeImg} alt="Imagem hero Home" />
                   </div>
                 </div>
               </div>

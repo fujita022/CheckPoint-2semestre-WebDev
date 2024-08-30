@@ -8,16 +8,18 @@
 
 .container-planos{
   height: 60vh;
+  padding: 0 20px;
 }
 
 .planos-sobre{
   margin-top: 23px;
-    display: flex;
-    border-top-left-radius: 30px;
-    border-top-right-radius:30px ;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
+  display: flex;
+  flex-wrap: wrap; 
+  border-top-left-radius: 30px;
+  border-top-right-radius:30px ;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
 }
 
 .title-plano{
@@ -128,3 +130,4 @@
   justify-content: center;
   margin-top: 40px;
 }
+

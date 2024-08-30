@@ -26,16 +26,10 @@ function Sobre() {
                     </div>
                 </div>
             </div>
-
-            <div className="container-fim-sobre">
-                <div className="imgs-fim">
-                </div>
-            </div>
-
             <section>
                 <div className="container-planos">
                     <div className="title-plano">
-                    <h1>Planos</h1>
+                        <h1>Planos</h1>
                     </div>
                     <div className="planos-sobre">
                         <Planos
@@ -45,10 +39,10 @@ function Sobre() {
                             bodyplanosh6preco={'R$15'}
                             buttonplanos={'Cadastrar'}
                             ImagemSeta={SetaSobre}
-                            ></Planos>
+                        ></Planos>
                         <Planos
                             headerplanos={'Profissional - Times'}
-                            headerColor= '#EBE9E9'
+                            headerColor='#EBE9E9'
                             bodyplanosp={'1-10 Usuários'}
                             bodyplanosh6={'Vídeos ilimitados'}
                             bodyplanosh6preco={'R$40'}
@@ -57,18 +51,18 @@ function Sobre() {
                             bodyplanosh6preco2={'R$20'}
                             buttonplanos={'Cadastrar'}
                             buttonColor={'#fff'}
-                            corTexto={'#2F2E41'}   
+                            corTexto={'#2F2E41'}
                             borderColor={'1px solid #929292'}
                             ImagemSeta={SetaSobre}
                         ></Planos>
                         <Planos
-                           headerplanos={'Corporativo'}
-                           headerColor= '#EBE9E9'
-                           buttonplanos={'Entre em contato'}        
-                           ImagemCard={ImagemCard}
-                           buttonColor={'#fff'}    
-                           corTexto={'#2F2E41'}      
-                           borderColor={'1px solid #929292'}
+                            headerplanos={'Corporativo'}
+                            headerColor='#EBE9E9'
+                            buttonplanos={'Entre em contato'}
+                            ImagemCard={ImagemCard}
+                            buttonColor={'#fff'}
+                            corTexto={'#2F2E41'}
+                            borderColor={'1px solid #929292'}
                         ></Planos>
                     </div>
                 </div>

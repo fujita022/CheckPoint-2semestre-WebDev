@@ -17,7 +17,6 @@ function Planos({headerplanos, bodyplanosp,bodyplanosh6,bodyplanosh6preco, bodyp
           ): (
               <>
                 <p>{bodyplanosp}</p>
-                <img className='img-card-ultimo' src={ImagemCard} alt="" />
                 <div className="seta-planos">
                 <h6 className='preco-planos'>{bodyplanosh6} <h2>{bodyplanosh6preco}</h2></h6>
                 <img src={ImagemSeta} alt="Imagem seta layout" />

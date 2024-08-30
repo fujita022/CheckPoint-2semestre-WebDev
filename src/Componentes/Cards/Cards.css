@@ -17,6 +17,7 @@
 
 .cards-home{
     margin: 200px 0px 400px 0px;
+    flex-wrap: wrap; 
     display: flex;
     align-items: center;
     justify-content: center;

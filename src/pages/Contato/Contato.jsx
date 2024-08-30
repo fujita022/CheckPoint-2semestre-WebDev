@@ -14,8 +14,8 @@ function Contato() {
                     </div>
                     <div className="esquerda-contato-images">
                         <img src={Twitter} alt="twitter img" />
-                        <img src={Instagram} alt="twitter img" />
-                        <img src={Discord} alt="twitter img" />
+                        <img src={Instagram} alt="instagram img" />
+                        <img src={Discord} alt="discord img" />
                     </div>
                 </div>
 
